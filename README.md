@@ -1,8 +1,8 @@
 [![Build Status](https://dev.azure.com/alastair0234/Grafworx/_apis/build/status/Alastair-Pandelus.MudBlazor.Templates?branchName=master)](https://dev.azure.com/alastair0234/Grafworx/_build/latest?definitionId=1&branchName=master)
 
-Based upon
+Grafworx sample Blazor Host - Based upon
 
 ## MudBlazor
-For more information about Mudblazor, stop by our main repo or visit our website.
+For more information about Mudblazor, stop by our main repo or visit the website.
 - [Github repository](https://github.com/Garderoben/MudBlazor)
 - [MudBlazor website](https://mudblazor.com)
