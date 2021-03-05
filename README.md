@@ -3,6 +3,6 @@
 Grafworx sample Blazor Host - Based upon
 
 ## MudBlazor
-For more information about Mudblazor, stop by our main repo or visit the website.
+For more information about Mudblazor, stop by the repo or website.
 - [Github repository](https://github.com/Garderoben/MudBlazor)
 - [MudBlazor website](https://mudblazor.com)
