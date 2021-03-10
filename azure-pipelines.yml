@@ -43,3 +43,12 @@ steps:
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publishing Build Artifacts...'
+
+- task: OctopusPack@4
+  inputs:
+    PackageId: 'Grafworx'
+    PackageFormat: 'NuPkg'
+    PackageVersion: '1.0.$(Build.BuildId)'
+    SourcePath: '$(build.artifactstagingdirectory)\Grafworx'
+  
+  
