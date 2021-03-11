@@ -39,11 +39,10 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publishing Build Artifacts...'
 
-- task: OctopusPack@4
+- task: AzureRmWebAppDeployment@4
   inputs:
-    PackageId: 'Grafworx'
-    PackageFormat: 'NuPkg'
-    PackageVersion: '1.0.$(Build.BuildId)'
-    SourcePath: '$(build.artifactstagingdirectory)\Grafworx'
-  
-  
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Grafworx (060989d1-25bb-411d-aa82-a4ff1bb39990)'
+    appType: 'webApp'
+    WebAppName: 'app-grafworx-prod-uks'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
